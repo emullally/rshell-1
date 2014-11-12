@@ -1,0 +1,164 @@
+Script started on Tue 21 Oct 2014 11:26:09 PM PDT
+]0;jerome@jerome-X75VD: ~/hw0/rshelljerome@jerome-X75VD:~/hw0/rshell$ ./rshell
+bash: ./rshell: No such file or directory
+]0;jerome@jerome-X75VD: ~/hw0/rshelljerome@jerome-X75VD:~/hw0/rshell$ cd ./rsh[K[K[K[K[Krshell[K[K[K[K[K[Kbin
+]0;jerome@jerome-X75VD: ~/hw0/rshell/binjerome@jerome-X75VD:~/hw0/rshell/bin$ ./rshell
+$ mkdir e eyy
+$ ls
+eyy  rshell
+$ ls -l -a
+total 40
+drwxrwxr-x 3 jerome jerome  4096 Oct 21 23:26 .
+drwxrwxr-x 5 jerome jerome  4096 Oct 21 23:23 ..
+drwxrwxr-x 2 jerome jerome  4096 Oct 21 23:26 eyy
+-rwxrwxr-x 1 jerome jerome 27911 Oct 21 22:45 rshell
+$ ls; ls  ; ls
+eyy  rshell
+eyy  rshell
+eyy  rshell
+$ pwd
+/home/jerome/hw0/rshell/bin
+$ pwd  ; #boooooooooooomshackalacka
+/home/jerome/hw0/rshell/bin
+/home/jerome/hw0/rshell/bin
+$ pwd;
+/home/jerome/hw0/rshell/bin
+$ pwd; #wat
+/home/jerome/hw0/rshell/bin
+/home/jerome/hw0/rshell/bin
+$ ls -l-  a-  -a;  3 #yay
+execvp: Bad address
+$ ls 0l  -l
+total 32
+drwxrwxr-x 2 jerome jerome  4096 Oct 21 23:26 eyy
+-rwxrwxr-x 1 jerome jerome 27911 Oct 21 22:45 rshell
+$ ls -a
+.  ..  eyy  rshell
+$ ls -l -a       s #yay
+eyy  rshell
+$ ls; l #yay
+eyy  rshell
+eyy  rshell
+$ doo
+execvp: No such file or directory
+$ bam wam thank you man m
+execvp: No such file or directory
+$ clear
+[H[2J$ ./a.o   rshell
+$ exit
+$ vim     cd ..
+execvp: No such file or directory
+$ exit
+]0;jerome@jerome-X75VD: ~/hw0/rshell/binjerome@jerome-X75VD:~/hw0/rshell/bin$ exit
+exit
+
+Script done on Tue 21 Oct 2014 11:29:45 PM PDT
+
+Script started on Tue 21 Oct 2014 11:32:24 PM PDT
+]0;jerome@jerome-X75VD: ~/hw0/rshelljerome@jerome-X75VD:~/hw0/rshell$ ./rshell
+$ vim README
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;47r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[47;1H"README" 47L, 1255C[>c[1;17HRSHELL
+=======================================
+ Liscensing GNU GENERAL PUBLIC LICENSE
+=======================================
+
+Author
+-Jerome Barbero
+
+File List
+-------------
+rshell.cpp
+LICENSE
+README
+-------------
+How to Run File Once it is Cloned into local machine
+---------------------------------------------------
+1. cd into rshell
+2. cd into bin
+3. type in "./rshell"
+
+Once you press enter you should be in the program
+---------------------------------------------------
+
+Program reviewed by the University of California, Riverside
+
+---------------------------------------------------
+In this project we created a program named "rshell" which
+is supposed to act like a normal BASH Command Shell.
+It executes commands inputted by the user using the execvp
+function and also has a special exit command which exits
+the program.
+---------------------------------------------------
+
+Bugs
+
+--------------------------------------------------
+1. || and && do not work, as i was not able to get
+them to work.
+2. the command "cd" does not work
+3. execvp will claim a file name is too long when there are
+around 300 characters
+4. if you put around 550 commands into the program it will crash.
+5. after putting comment, previous command will print twice[47;68H1,3-17[8CTop[1;17H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[47;1H[K[47;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h
+[?25l"README" 47L, 1255C written
+
+
+[?1l>[?12l[?25h[?1049l$ ls || pwd
+ls: cannot access ||: No such file or directory
+ls: cannot access pwd: No such file or directory
+$ ls && pwd
+ls: cannot access &&: No such file or directory
+ls: cannot access pwd: No such file or directory
+$ cd ..
+execvp: No such file or directory
+$ cd rshell
+execvp: No such file or directory
+$ iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiimmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmdddddddddddddddddddddddddddeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadddddddddddddd
+execvp: File name too long
+$ ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;ls; ls; ls; ls; ls; ls; ls; ls; ls; ls;
+Segmentation fault (core dumped)
+]0;jerome@jerome-X75VD: ~/hw0/rshelljerome@jerome-X75VD:~/hw0/rshell$ clear
+[H[2J]0;jerome@jerome-X75VD: ~/hw0/rshelljerome@jerome-X75VD:~/hw0/rshell$ clear./rshell
+$ ls -a -a -a -a -a -a -a -a -a -a -l -l -l -l -l -l -l -l -l -l -l -a -a -a -a -a -a -a -a -a -a -l -l -l -l -l -l -l -l -l -l -l -a -a -a -a -a -a -a -a -a -a -l -l -l -l -l -l -l -l -l -l -l -a -a -a -a -a -a -a -a -a -a -l -l -l -l -l -l -l -l -l -l -l  -a -a -a -a -a -a -a -a -a -a -l -l -l -l -l -l -l -l -l -l -l-a -a -a -a -a -a -a -a -a -a -l -l -l -l -l -l -l -l -l -l -l -a -a -a -a -a -a -a -a -a -a -l -l -l -l -l -l -l -l -l -l -l-a -a -a -a -a -a -a -a -a -a -l -l -l -l -l -l -l -l -l -l -l -a -a -a -a -a -a -a -a -a -a -l -l -l -l -l -l -l -l -l -l -l -a -a -a -a -a -a -a -a -a -a -l -l -l -l -l -l -l -l -l -l -l -a -a -a -a -a -a -a -a -a -a -l -l -l -l -l -l -l -l -l -l -l -a -a -a -a -a -a -a -a -a -a -l -l -l -l -l -l -l -l -l -l -l -a -a -a -a -a -a -a -a -a -a -l -l -l -l -l -l -l -l -l -l -l -a -a -a -a -a -a -a -a -a -a -l -l -l -l -l -l -l -l -l -l -l -a -a -a -a -a -a -a -a -a -a -l -l -l -l -l -l -l -l -l -l -l -a -a -a -a -a -a -a -a -a -a -l -l -l -l -l -l -l -l -l -l -l -a -a -a -a -a -a -a -a -a -a -l -l -l -l -l -l -l -l -l -l -l  -a -a -a -a -a -a -a -a -a -a -l -l -l -l -l -l -l -l -l -l -l-a -a -a -a -a -a -a -a -a -a -l -l -l -l -l -l -l -l -l -l -l -a -a -a -a -a -a -a -a -a -a -l -l -l -l -l -l -l -l -l -l -l -a -a -a -a -a -a -a -a -a -a -l -l -l -l -l -l -l -l -l -l -l -a -a -a -a -a -a -a -a -a -a -l -l -l -l -l -l -l -l -l -l -l -a -a -a -a -a -a -a -a -a -a -l -l -l -l -l -l -l -l -l -l -l  -a -a -a -a -a -a -a -a -a -a -l -l -l -l -l -l -l -l -l -l -l-a -a -a -a -a -a -a -a -a -a -l -l -l -l -l -l -l -l -l -l -l
+*** Error in `./rshell': malloc(): memory corruption: 0x000000000084f270 ***
+Aborted (core dumped)
+]0;jerome@jerome-X75VD: ~/hw0/rshelljerome@jerome-X75VD:~/hw0/rshell$ clear
+[H[2J]0;jerome@jerome-X75VD: ~/hw0/rshelljerome@jerome-X75VD:~/hw0/rshell$ ./rshell
+$ ls
+bin  LICENSE  Makefile	orandtest.cpp~	README	README~  rshell  src  test2  tests
+$ l mkdir bam
+$ ls
+bam  LICENSE   orandtest.cpp~  README~	src    tests
+bin  Makefile  README	       rshell	test2
+$ touch truee.cpp
+$ ls
+bam  LICENSE   orandtest.cpp~  README~	src    tests
+bin  Makefile  README	       rshell	test2  truee.cpp
+$ touch moretests.cpp; vim moretests.cpp
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;47r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[47;1H"moretests.cpp" 0L, 0C[>c[2;1H[1m[34m~                                                                                    [3;1H~                                                                                    [4;1H~                                                                                    [5;1H~                                                                                    [6;1H~                                                                                    [7;1H~                                                                                    [8;1H~                                                                                    [9;1H~                                                                                    [10;1H~                                                                                    [11;1H~                                                                                    [12;1H~                                                                                    [13;1H~                                                                                    [14;1H~                                                                                    [15;1H~                                                                                    [16;1H~                                                                                    [17;1H~                                                                                    [18;1H~                                                                                    [19;1H~                                                                                    [20;1H~                                                                                    [21;1H~                                                                                    [22;1H~                                                                                    [23;1H~                                                                                    [24;1H~                                                                                    [25;1H~                                                                                    [26;1H~                                                                                    [27;1H~                                                                                    [28;1H~                                                                                    [29;1H~                                                                                    [30;1H~                                                                                    [31;1H~                                                                                    [32;1H~                                                                                    [33;1H~                                                                                    [34;1H~                                                                                    [35;1H~                                                                                    [36;1H~                                                                                    [37;1H~                                                                                    [38;1H~                                                                                    [39;1H~                                                                                    [40;1H~                                                                                    [41;1H~                                                                                    [42;1H~                                                                                    [43;1H~                                                                                    [44;1H~                                                                                    [45;1H~                                                                                    [46;1H~                                                                                    [m[47;68H0,0-1[9CAll[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[47;1H[K[47;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h
+[?25l"moretests.cpp" 0L, 0C written
+
+
+[?1l>[?12l[?25h[?1049l$ ls; #woh ah; butts     pwd
+bam  LICENSE   moretests.cpp   README	rshell	test2  truee.cpp
+bin  Makefile  orandtest.cpp~  README~	src	tests
+bam  LICENSE   moretests.cpp   README	rshell	test2  truee.cpp
+bin  Makefile  orandtest.cpp~  README~	src	tests
+$ :w  exit
+]0;jerome@jerome-X75VD: ~/hw0/rshelljerome@jerome-X75VD:~/hw0/rshell$ exit
+exit
+
+Script done on Tue 21 Oct 2014 11:36:39 PM PDT
+
+Script started on Tue 21 Oct 2014 11:38:59 PM PDT
+]0;jerome@jerome-X75VD: ~/hw0/rshelljerome@jerome-X75VD:~/hw0/rshell$ .[Ks[K./rshell
+$ script hello
+Script started, file is hello
+]0;jerome@jerome-X75VD: ~/hw0/rshelljerome@jerome-X75VD:~/hw0/rshell$ exit
+exit
+Script done, file is hello
+$ exit
+]0;jerome@jerome-X75VD: ~/hw0/rshelljerome@jerome-X75VD:~/hw0/rshell$ exit
+exit
+
+Script done on Tue 21 Oct 2014 11:40:11 PM PDT

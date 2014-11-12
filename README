@@ -1,0 +1,67 @@
+		RSHELL
+=======================================
+ Liscensing GNU GENERAL PUBLIC LICENSE
+=======================================
+
+Author
+-Jerome Barbero
+
+File List
+-------------
+rshell.cpp
+LICENSE
+README
+-------------
+How to Run File Once it is Cloned into local machine
+---------------------------------------------------
+1. cd into rshell
+2. cd into bin
+3. type in "./rshell"
+
+Once you press enter you should be in the program
+---------------------------------------------------
+
+Program reviewed by the University of California, Riverside
+
+---------------------------------------------------
+In this project we created a program named "rshell" which
+is supposed to act like a normal BASH Command Shell.
+It executes commands inputted by the user using the execvp
+function and also has a special exit command which exits
+the program.
+---------------------------------------------------
+
+Bugs
+
+<<<<<<< HEAD
+rshell
+=======
+>>>>>>> 07b5496a608fb929958fdce5776948c53357b5df
+--------------------------------------------------
+1. || and && do not work, as i was not able to get
+them to work.
+2. the command "cd" does not work
+3. execvp will claim a file name is too long when there are
+around 300 characters
+4. if you put around 550 commands into the program it will crash.
+5. after putting comment, previous command will print twice
+6. after putting script, the program closes
+
+<<<<<<< HEAD
+ls
+--------------------------------------------------
+1. -R does not work at all, I had troubles making it.
+2. using the optional file parameter prints everything in blue
+
+cp
+--------------------------------------------------
+1. the final Read and Write w/o Buffer is not working
+
+
+
+=======
+>>>>>>> 07b5496a608fb929958fdce5776948c53357b5df
+
+
+
+

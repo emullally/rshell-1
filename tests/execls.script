@@ -1,0 +1,128 @@
+Script started on Tue 11 Nov 2014 11:21:17 PM PST
+]0;jerome@jerome-X75VD: ~/CS100/rshelljerome@jerome-X75VD:~/CS100/rshell$ .[Kls
+[0m[01;32ma.out[0m  execls.script  Makefile   README  [01;34mtester[0m       [01;34mtests[0m
+[01;34mbin[0m    LICENSE        orand.cpp  [01;34msrc[0m     testing.cpp
+]0;jerome@jerome-X75VD: ~/CS100/rshelljerome@jerome-X75VD:~/CS100/rshell$ ./[K[Kbin/ls
+LICENSE  Makefile  README  [1;32ma.out[0m  [1;34mbin[0m  execls.script  orand.cpp  [1;34msrc[0m  [1;34mtester[0m  testing.cpp  [1;34mtests[0m  
+]0;jerome@jerome-X75VD: ~/CS100/rshelljerome@jerome-X75VD:~/CS100/rshell$ ls -l
+total 96
+-rwxrwxr-x 1 jerome jerome 41593 Nov 11 23:04 [0m[01;32ma.out[0m
+drwxrwxr-x 2 jerome jerome  4096 Nov 11 23:19 [01;34mbin[0m
+-rw-rw-r-- 1 jerome jerome     0 Nov 11 23:21 execls.script
+-rw-rw-r-- 1 jerome jerome 18027 Oct 22 00:07 LICENSE
+-rw-rw-r-- 1 jerome jerome   250 Nov 11 23:07 Makefile
+-rw-rw-r-- 1 jerome jerome  2065 Nov  4 16:51 orand.cpp
+-rw-rw-r-- 1 jerome jerome  1300 Nov 11 12:28 README
+drwxrwxr-x 2 jerome jerome  4096 Nov 11 23:18 [01;34msrc[0m
+drwxrwxr-x 4 jerome jerome  4096 Nov 11 19:17 [01;34mtester[0m
+-rw-rw-r-- 1 jerome jerome   767 Nov  9 23:53 testing.cpp
+drwxrwxr-x 2 jerome jerome  4096 Oct 22 00:52 [01;34mtests[0m
+]0;jerome@jerome-X75VD: ~/CS100/rshelljerome@jerome-X75VD:~/CS100/rshell$ ls [K[K[Kbin/ls -l
+-rw-rw-r-- 1 jerome jerome 18027 Nov 11 12:59 LICENSE
+-rw-rw-r-- 1 jerome jerome 250 Nov 11 23:08 Makefile
+-rw-rw-r-- 1 jerome jerome 1300 Nov 11 12:59 README
+-rwxrwxr-x 1 jerome jerome 41593 Nov 11 23:04 [1;32ma.out[0m
+drwxrwxr-x 2 jerome jerome 4096 Nov 11 23:20 [1;34mbin[0m
+-rw-rw-r-- 1 jerome jerome 0 Nov 11 23:21 execls.script
+-rw-rw-r-- 1 jerome jerome 2065 Nov 11 12:59 orand.cpp
+drwxrwxr-x 2 jerome jerome 4096 Nov 11 23:20 [1;34msrc[0m
+drwxrwxr-x 4 jerome jerome 4096 Nov 11 19:17 [1;34mtester[0m
+-rw-rw-r-- 1 jerome jerome 767 Nov 11 12:59 testing.cpp
+drwxrwxr-x 2 jerome jerome 4096 Nov 11 11:53 [1;34mtests[0m
+]0;jerome@jerome-X75VD: ~/CS100/rshelljerome@jerome-X75VD:~/CS100/rshell$ ls src
+cp.cpp  ls.cpp  ls.cpp~  rshell.cpp
+]0;jerome@jerome-X75VD: ~/CS100/rshelljerome@jerome-X75VD:~/CS100/rshell$ .[Kbin/ls src
+stat: No such file or directory
+]0;jerome@jerome-X75VD: ~/CS100/rshelljerome@jerome-X75VD:~/CS100/rshell$ bin/ls tests
+stat: No such file or directory
+Script started on Tue 11 Nov 2014 11:25:35 PM PST
+]0;jerome@jerome-X75VD: ~/CS100/rshelljerome@jerome-X75VD:~/CS100/rshell$ bs[K[Kls
+[0m[01;32ma.out[0m  execls2.script  LICENSE   orand.cpp  [01;34msrc[0m     testing.cpp
+[01;34mbin[0m    execls.script   Makefile  README     [01;34mtester[0m  [01;34mtests[0m
+]0;jerome@jerome-X75VD: ~/CS100/rshelljerome@jerome-X75VD:~/CS100/rshell$ ls [K
+[0m[01;32ma.out[0m  execls2.script  LICENSE   orand.cpp  [01;34msrc[0m     testing.cpp
+[01;34mbin[0m    execls.script   Makefile  README     [01;34mtester[0m  [01;34mtests[0m
+]0;jerome@jerome-X75VD: ~/CS100/rshelljerome@jerome-X75VD:~/CS100/rshell$ ls -l
+total 100
+-rwxrwxr-x 1 jerome jerome 41593 Nov 11 23:04 [0m[01;32ma.out[0m
+drwxrwxr-x 3 jerome jerome  4096 Nov 11 23:23 [01;34mbin[0m
+-rw-rw-r-- 1 jerome jerome     0 Nov 11 23:25 execls2.script
+-rw-rw-r-- 1 jerome jerome  2577 Nov 11 23:23 execls.script
+-rw-rw-r-- 1 jerome jerome 18027 Oct 22 00:07 LICENSE
+-rw-rw-r-- 1 jerome jerome   250 Nov 11 23:07 Makefile
+-rw-rw-r-- 1 jerome jerome  2065 Nov  4 16:51 orand.cpp
+-rw-rw-r-- 1 jerome jerome  1300 Nov 11 12:28 README
+drwxrwxr-x 3 jerome jerome  4096 Nov 11 23:22 [01;34msrc[0m
+drwxrwxr-x 4 jerome jerome  4096 Nov 11 19:17 [01;34mtester[0m
+-rw-rw-r-- 1 jerome jerome   767 Nov  9 23:53 testing.cpp
+drwxrwxr-x 2 jerome jerome  4096 Oct 22 00:52 [01;34mtests[0m
+]0;jerome@jerome-X75VD: ~/CS100/rshelljerome@jerome-X75VD:~/CS100/rshell$ l[Kbin/ls
+LICENSE  Makefile  README  [1;32ma.out[0m  [1;34mbin[0m  execls.script  execls2.script  orand.cpp  [1;34msrc[0m  [1;34mtester[0m  testing.cpp  [1;34mtests[0m  
+]0;jerome@jerome-X75VD: ~/CS100/rshelljerome@jerome-X75VD:~/CS100/rshell$ bin/ls -l
+-rw-rw-r-- 1 jerome jerome 18027 Nov 11 12:59 LICENSE
+-rw-rw-r-- 1 jerome jerome 250 Nov 11 23:08 Makefile
+-rw-rw-r-- 1 jerome jerome 1300 Nov 11 12:59 README
+-rwxrwxr-x 1 jerome jerome 41593 Nov 11 23:04 [1;32ma.out[0m
+drwxrwxr-x 3 jerome jerome 4096 Nov 11 23:20 [1;34mbin[0m
+-rw-rw-r-- 1 jerome jerome 2577 Nov 11 23:21 execls.script
+-rw-rw-r-- 1 jerome jerome 0 Nov 11 23:25 execls2.script
+-rw-rw-r-- 1 jerome jerome 2065 Nov 11 12:59 orand.cpp
+drwxrwxr-x 3 jerome jerome 4096 Nov 11 23:22 [1;34msrc[0m
+drwxrwxr-x 4 jerome jerome 4096 Nov 11 19:17 [1;34mtester[0m
+-rw-rw-r-- 1 jerome jerome 767 Nov 11 12:59 testing.cpp
+drwxrwxr-x 2 jerome jerome 4096 Nov 11 11:53 [1;34mtests[0m
+]0;jerome@jerome-X75VD: ~/CS100/rshelljerome@jerome-X75VD:~/CS100/rshell$ bin [K/ls -a
+[1;34m.[0m  [1;34m..[0m  .README.swp  [1;34m.butt[0m  [1;34m.git[0m  LICENSE  Makefile  README  [1;32ma.out[0m  [1;34mbin[0m  execls.script  execls2.script  orand.cpp  [1;34msrc[0m  [1;34mtester[0m  testing.cpp  [1;34mtests[0m  
+]0;jerome@jerome-X75VD: ~/CS100/rshelljerome@jerome-X75VD:~/CS100/rshell$ bin/ls -la
+drwxrwxr-x 8 jerome jerome 4096 Nov 11 23:25 [1;34m.[0m
+drwxrwxr-x 7 jerome jerome 4096 Nov 11 11:38 [1;34m..[0m
+-rw-r--r-- 1 jerome jerome 12288 Nov 11 23:24 .README.swp
+drwxrwxr-x 2 jerome jerome 4096 Nov 11 14:23 [1;34m.butt[0m
+drwxrwxr-x 8 jerome jerome 4096 Nov 11 14:23 [1;34m.git[0m
+-rw-rw-r-- 1 jerome jerome 18027 Nov 11 12:59 LICENSE
+-rw-rw-r-- 1 jerome jerome 250 Nov 11 23:08 Makefile
+-rw-rw-r-- 1 jerome jerome 1300 Nov 11 12:59 README
+-rwxrwxr-x 1 jerome jerome 41593 Nov 11 23:04 [1;32ma.out[0m
+drwxrwxr-x 3 jerome jerome 4096 Nov 11 23:20 [1;34mbin[0m
+-rw-rw-r-- 1 jerome jerome 2577 Nov 11 23:21 execls.script
+-rw-rw-r-- 1 jerome jerome 0 Nov 11 23:25 execls2.script
+-rw-rw-r-- 1 jerome jerome 2065 Nov 11 12:59 orand.cpp
+drwxrwxr-x 3 jerome jerome 4096 Nov 11 23:22 [1;34msrc[0m
+drwxrwxr-x 4 jerome jerome 4096 Nov 11 19:17 [1;34mtester[0m
+-rw-rw-r-- 1 jerome jerome 767 Nov 11 12:59 testing.cpp
+drwxrwxr-x 2 jerome jerome 4096 Nov 11 11:53 [1;34mtests[0m
+]0;jerome@jerome-X75VD: ~/CS100/rshelljerome@jerome-X75VD:~/CS100/rshell$ bin/ls -a
+[1;34m.[0m  [1;34m..[0m  .README.swp  [1;34m.butt[0m  [1;34m.git[0m  LICENSE  Makefile  README  [1;32ma.out[0m  [1;34mbin[0m  execls.script  execls2.script  orand.cpp  [1;34msrc[0m  [1;34mtester[0m  testing.cpp  [1;34mtests[0m  
+]0;jerome@jerome-X75VD: ~/CS100/rshelljerome@jerome-X75VD:~/CS100/rshell$ bin/ls -aaa
+[1;34m.[0m  [1;34m..[0m  .README.swp  [1;34m.butt[0m  [1;34m.git[0m  LICENSE  Makefile  README  [1;32ma.out[0m  [1;34mbin[0m  execls.script  execls2.script  orand.cpp  [1;34msrc[0m  [1;34mtester[0m  testing.cpp  [1;34mtests[0m  
+]0;jerome@jerome-X75VD: ~/CS100/rshelljerome@jerome-X75VD:~/CS100/rshell$ bin/ls -alalala
+drwxrwxr-x 8 jerome jerome 4096 Nov 11 23:25 [1;34m.[0m
+drwxrwxr-x 7 jerome jerome 4096 Nov 11 11:38 [1;34m..[0m
+-rw-r--r-- 1 jerome jerome 12288 Nov 11 23:24 .README.swp
+drwxrwxr-x 2 jerome jerome 4096 Nov 11 14:23 [1;34m.butt[0m
+drwxrwxr-x 8 jerome jerome 4096 Nov 11 14:23 [1;34m.git[0m
+-rw-rw-r-- 1 jerome jerome 18027 Nov 11 12:59 LICENSE
+-rw-rw-r-- 1 jerome jerome 250 Nov 11 23:08 Makefile
+-rw-rw-r-- 1 jerome jerome 1300 Nov 11 12:59 README
+-rwxrwxr-x 1 jerome jerome 41593 Nov 11 23:04 [1;32ma.out[0m
+drwxrwxr-x 3 jerome jerome 4096 Nov 11 23:20 [1;34mbin[0m
+-rw-rw-r-- 1 jerome jerome 2577 Nov 11 23:21 execls.script
+-rw-rw-r-- 1 jerome jerome 4096 Nov 11 23:25 execls2.script
+-rw-rw-r-- 1 jerome jerome 2065 Nov 11 12:59 orand.cpp
+drwxrwxr-x 3 jerome jerome 4096 Nov 11 23:22 [1;34msrc[0m
+drwxrwxr-x 4 jerome jerome 4096 Nov 11 19:17 [1;34mtester[0m
+-rw-rw-r-- 1 jerome jerome 767 Nov 11 12:59 testing.cpp
+drwxrwxr-x 2 jerome jerome 4096 Nov 11 11:53 [1;34mtests[0m
+]0;jerome@jerome-X75VD: ~/CS100/rshelljerome@jerome-X75VD:~/CS100/rshell$ bin [K/[K/ls test
+stat3: No such file or directory
+]0;jerome@jerome-X75VD: ~/CS100/rshelljerome@jerome-X75VD:~/CS100/rshell$ mkdir test
+]0;jerome@jerome-X75VD: ~/CS100/rshelljerome@jerome-X75VD:~/CS100/rshell$ bin/ls test
+
+]0;jerome@jerome-X75VD: ~/CS100/rshelljerome@jerome-X75VD:~/CS100/rshell$ e[Ktouch bin/test/hello
+touch: cannot touch ‘bin/test/hello’: No such file or directory
+]0;jerome@jerome-X75VD: ~/CS100/rshelljerome@jerome-X75VD:~/CS100/rshell$ clear
+[H[2J]0;jerome@jerome-X75VD: ~/CS100/rshelljerome@jerome-X75VD:~/CS100
+]0;jerome@jerome-X75VD: ~/CS100/rshelljerome@jerome-X75VD:~/CS100/rshell$ exit
+exit
+
+Script done on Tue 11 Nov 2014 11:23:40 PM PST
