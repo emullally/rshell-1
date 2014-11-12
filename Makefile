@@ -1,5 +1,4 @@
 all:
-
 	make bin;
 	make rshell;
 	make ls;
@@ -12,9 +11,4 @@ ls:
 	g++ src/ls.cpp -Wall -Werror -ansi -pedantic -o bin/ls
 cp:
 	g++ src/cp.cpp -Wall -Werror -ansi -pedantic -o bin/cp
-
-=======
-	g++ rshell.cpp -Wall -Werror -ansi -pedantic -o rshell
-rshell:
-	g++ rshell.cpp -Wall -Werror -ansi -pedantic -o rshell
 
