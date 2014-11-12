@@ -1,5 +1,5 @@
 all:
-
+<<<<<<< HEAD
 	make bin;
 	make rshell;
 	make ls;
@@ -17,4 +17,4 @@ cp:
 	g++ rshell.cpp -Wall -Werror -ansi -pedantic -o rshell
 rshell:
 	g++ rshell.cpp -Wall -Werror -ansi -pedantic -o rshell
-
+>>>>>>> 07b5496a608fb929958fdce5776948c53357b5df
